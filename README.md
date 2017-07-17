@@ -11,3 +11,5 @@ Topics include:
 - Styling and repositioning navigation links
 - Swapping high-resolution graphics for Retina displays
 - Making sure content is printable
+
+![Preview](screenshot.png)
