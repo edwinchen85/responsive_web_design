@@ -28,6 +28,7 @@ a.btn:hover { background-color: rgba(0,0,0,.3); }
 header { height: 430px; background: #CF0004 url('../images/banner_1200.jpg') no-repeat center bottom; position: relative; }
 
 header a.logo {
+  z-index: 1;
   position: absolute;
   display: block; width: 160px; height: 66px;
   background: url('../images/logo.svg') no-repeat 0 0;
@@ -111,6 +112,46 @@ section.how-to blockquote p.credit::before {
   left: 0;
 }
 
+
+/* Navigation */
+nav {
+  background-color: rgba(0,0,0,.65);
+  position: absolute;
+  top: 0; left: 0;
+  padding: 50px 0 0 0;
+  width: 100%;
+}
+
+nav::after { content: ''; display: block; clear: both; }
+
+nav ul { list-style: none; margin: 0; padding: 0; }
+
+nav ul li:hover { background-color: #2B0306; }
+nav ul li:hover > ul { display: block; }
+
+nav ul li a {
+  display: inline-block;
+  color: #FFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 125px;
+  position: relative;
+}
+
+nav ul li a:visited { color: #FFF; }
+
+nav ul li a:hover { background-color: #6D0911; }
+
+nav ul ul { position: absolute; top: 100%; background-color: #2B0306; display: none; }
+
+nav ul ul li { position: relative; }
+
+nav ul ul ul { position: absolute; left: 100%; top: 0; display: none; }
+
+/* top-level */
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left; }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
 
 /* Footer */
 footer { font-size: 0.8em; margin: 40px; color: #999; }
