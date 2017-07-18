@@ -17,6 +17,13 @@ p { margin: 0 0 1em 0; }
 a { color: #007EFF; }
 a:visited { color: #65B1FF; }
 
+a.btn {
+  font-size: 1.2em; text-decoration: none; color: #FFF;
+  border: 1px solid #FFF; padding:4px 15px;
+  transition: background-color .5s;
+}
+a.btn:hover { background-color: rgba(0,0,0,.3); }
+
 /* Header */
 header { height: 430px; background: #CF0004 url('../images/banner_1200.jpg') no-repeat center bottom; position: relative; }
 
