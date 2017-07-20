@@ -12,4 +12,6 @@ Topics include:
 - Swapping high-resolution graphics for Retina displays
 - Making sure content is printable
 
+[View demo site here.](http://edwinchen.co/responsive_web_design/)
+
 ![Preview](screenshot.png)
