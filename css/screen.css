@@ -372,3 +372,33 @@ footer a:hover { color: #000; }
   }
 
 }
+
+
+@media
+  screen and (max-width: 1000px) and (min-resolution: 2dppx),
+  screen and (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  header { background-image: url('../images/banner_1200_@2x.jpg'); }
+  section.atmosphere article { background-image: url('../images/photo_lounge_@2x.jpg'); }
+}
+
+@media
+  screen and (max-width: 825px) and (min-resolution: 2dppx),
+  screen and (max-width: 825px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  header { background-image: url('../images/banner_825_@2x.jpg'); }
+}
+
+@media
+  screen and (max-width: 625px) and (min-resolution: 2dppx),
+  screen and (max-width: 625px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  header { background-image: url('../images/banner_625_@2x.jpg'); }
+}
+
+@media
+  screen and (max-width: 425px) and (min-resolution: 2dppx),
+  screen and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  header { background-image: url('../images/banner_425_@2x.jpg'); }
+}
