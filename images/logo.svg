@@ -6,6 +6,14 @@
 
     .logo_large, .logo_small { display: none; }
 
+    @media screen and (min-width: 125px) {
+      .logo_large { display: block; }
+    }
+
+    @media screen and (max-width: 124px) {
+      .logo_small { display: block; }
+    }
+
   ]]></style>
 
   <g class="logo_large">
