@@ -6,6 +6,8 @@
 
     .logo_large, .logo_small { display: none; }
 
+    path, polygon { fill: #FFF; }
+
     @media screen and (min-width: 125px) {
       .logo_large { display: block; }
     }
