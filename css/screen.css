@@ -116,10 +116,8 @@ section.how-to blockquote p.credit::before {
 /* Navigation */
 nav {
   background-color: rgba(0,0,0,.65);
-  position: absolute;
-  top: 0; left: 0;
+  position: relative;
   padding: 50px 0 0 0;
-  width: 100%;
 }
 
 nav::after { content: ''; display: block; clear: both; }
@@ -293,7 +291,7 @@ footer a:hover { color: #000; }
   section.how-to blockquote p.credit { margin-bottom: 0; }
 
   /* Navigation */
-  nav { position: static; width: auto; padding: 20px 15px; background-color: #4B0A0C; }
+  nav { padding: 50px 15px 20px 15px; background-color: #4B0A0C; }
 
   nav ul,
   nav ul ul,
